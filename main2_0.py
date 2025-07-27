@@ -3,7 +3,7 @@
 """
 Created on Wed Jul  2 16:44:39 2025
 
-@author: giacomogatti
+@author: jackmeowmeow
 """
 
 import xml.etree.ElementTree as ET
