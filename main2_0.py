@@ -56,7 +56,6 @@ def read_lenex_file_event(lenex_filename):
         return []
     
     
-# IMPROVE: find how in LENEX are stored different rounds (heats, semifinals, final) and store it
 def read_lenex_file_results(lenex_filename, event_data):
     """Read Lenex file and extract results for each event"""
     try:
@@ -150,7 +149,6 @@ def read_lenex_file_results(lenex_filename, event_data):
         print(f"Error reading Lenex file: {e}")
         return []
 
-#IMPROVE: we can generate different tables if we know the difference between heats, semis and final
 def create_content_with_swimmers(result_data, event_data):
     """Create wikitable content from swimmer data"""
     content = ''
